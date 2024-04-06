@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Eddie's Guitar Museum</title>
+        <title>Guitar Museum</title>
         <meta name="description" content="A journey through the history of famous guitars" />
         <link rel="stylesheet" href="style.css" />
-        <script type="module" src="scripts.js"></script>
+        <script type="module" src="./src/scripts.js"></script>
+        <link rel="icon" type="image/x-icon" href="./favicon.svg" />
     </head>
 
     <body>
         <header class="main-header">
             <h1 class="title">Guitar Museum</h1>
+            <div class="line"></div>
+            <h2 class="sub-title">A journey through the history of famous guitars</h2>
         </header>
         <div id="card-container"></div>
         <div class="card" style="display: none">
             <div class="card-content">
-                <h2>TV Show Title</h2>
+                <h2>Guitar Name</h2>
                 <img src="" alt="Guitar Display" />
                 <ul>
-                    <li id="owner">Owner:&nbsp;</li>
-                    <li id="type">Type:&nbsp;</li>
-                    <li id="year">Year Made:&nbsp;</li>
+                    <li>Owner:&nbsp;<span id="owner"></span></li>
+                    <li>Type:&nbsp;<span id="type"></span></li>
+                    <li>Year Made:&nbsp;<span id="year"></span></li>
                 </ul>
             </div>
         </div>
         <div class="footer">
             <select name="sort" id="sort">
-                <option value="default" disabled selected>Sort By Year</option>
+                <option value="default">Sort By Year</option>
                 <option value="ascending">Ascending</option>
                 <option value="descending">Descending</option>
             </select>
             <select name="filter" id="filter">
-                <option value="default" disabled selected>Filter By Type</option>
+                <option value="default">Filter By Type</option>
                 <option value="Acoustic">Acoustic</option>
                 <option value="Electric">Electric</option>
             </select>
