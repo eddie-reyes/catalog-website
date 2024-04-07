@@ -1,6 +1,7 @@
 import Card from './card.js';
 import URLS from './urls.js';
 
+//array of card objects represents our data
 const cards = [
     new Card(URLS.ERIC_CLAPTON_URL, 'Blackie', {
         owner: 'Eric Clapton',

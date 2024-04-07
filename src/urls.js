@@ -1,4 +1,5 @@
 const URLS = {
+    //urls for img src for each card
     KURT_COBAIN_URL:
         'https://news.cgtn.com/news/2020-06-21/Kurt-Cobain-s-MTV-Unplugged-guitar-sells-for-6-mln-at-auction-Rvqn6m7udW/img/e8c90999422342da8ede35edbde6b418/e8c90999422342da8ede35edbde6b418.jpeg',
     TRIGGER_URL:

@@ -6,10 +6,12 @@ class Card {
     }
 
     setElement(element) {
+        //setter when new element is created in showCards, then bind it to object instance
         this.element = element;
     }
 
     setElementContent() {
+        //append data to new card element
         this.element.style.display = 'block';
 
         const cardHeader = this.element.querySelector('h2');
