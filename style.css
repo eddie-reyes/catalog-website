@@ -21,7 +21,7 @@ body {
     color: white;
 }
 
-.line {
+.line-header {
     height: 4px;
     margin: 1rem auto;
     width: 15rem;
@@ -73,6 +73,14 @@ body {
     height: 10rem;
     /* ensure all images take up the same height */
     object-fit: contain;
+}
+
+.line-card {
+    height: 1px;
+    margin: auto;
+    margin-top: 1rem;
+    width: 10rem;
+    background-color: gray;
 }
 
 .footer {
